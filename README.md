@@ -2,7 +2,6 @@
 Design Patterns In TypeScript
 
 ## Install NPM packages
-We can easily run the whole with only a single command:
 ```bash
 yarn 
 ```
