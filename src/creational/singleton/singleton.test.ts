@@ -1,5 +1,5 @@
 import { ChessBoard} from "./chessBoard";
-describe("Factory test",()=>{
+describe("Singleton test",()=>{
     let board= new ChessBoard(1);
     it("should return new copy of document",()=>{
       let getBoard= ChessBoard.instance;

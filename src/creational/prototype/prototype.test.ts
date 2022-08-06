@@ -1,5 +1,5 @@
 import { Document} from "./document";
-describe("Factory test",()=>{
+describe("Prototype test",()=>{
     it("should return new copy of document",()=>{
       let doc= new Document("one.txt","hello world","txt");
       let clone= doc.clone();
